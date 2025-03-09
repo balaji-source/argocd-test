@@ -14,9 +14,8 @@ spec:
       labels:
         app: nginx
     spec:
-      conainers:
+      containers:  # ✅ Corrected here
       - name: nginx
         image: nginx:1.21
         ports:
         - containerPort: 80
-        
